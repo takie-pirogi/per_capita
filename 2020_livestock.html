@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bf8313ecd0392bd77e01bdb2a73f80d0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bf8313ecd0392bd77e01bdb2a73f80d0" ></div>
+        
+</body>
+<script>    
+    
+            var map_bf8313ecd0392bd77e01bdb2a73f80d0 = L.map(
+                "map_bf8313ecd0392bd77e01bdb2a73f80d0",
+                {
+                    center: [57.153534, 65.542274],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3.3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f8e415ec3002aad6656040c635466b49 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+            var marker_a0d286b2cd9e6999f3fd7122a7dd0dab = L.marker(
+                [50.7080119, 37.5837615],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_44cba0b81749b6950a0d75c3deec3ff8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
+        marker_a0d286b2cd9e6999f3fd7122a7dd0dab.setIcon(custom_icon_44cba0b81749b6950a0d75c3deec3ff8);
+        
+    
+            var marker_a1cc1db41fa259f5c08fbba9acdf2a1c = L.marker(
+                [51.6568453, 36.4852695],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_272dd990282fcc5f777ae116bb9dbf52 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
+        marker_a1cc1db41fa259f5c08fbba9acdf2a1c.setIcon(custom_icon_272dd990282fcc5f777ae116bb9dbf52);
+        
+    
+            var marker_a904a9155e65ce139a8041994cb74eaf = L.marker(
+                [52.8392765, 36.4251709],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_4c9335cd5bd4aec14df1f9bd9bf65513 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f984.png"});
+        marker_a904a9155e65ce139a8041994cb74eaf.setIcon(custom_icon_4c9335cd5bd4aec14df1f9bd9bf65513);
+        
+    
+            var marker_f53f0c5baddb11f32eb185281aa7b21b = L.marker(
+                [52.9019574, 41.3578918],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_ce5857f771c1469ed1f986d44c69e51d = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
+        marker_f53f0c5baddb11f32eb185281aa7b21b.setIcon(custom_icon_ce5857f771c1469ed1f986d44c69e51d);
+        
+    
+            var marker_c95e768702ad4f6174216873c317decd = L.marker(
+                [57.5358729, 28.8586826],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_6ba86a5181113e75d9adf8a64ae40cf6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
+        marker_c95e768702ad4f6174216873c317decd.setIcon(custom_icon_6ba86a5181113e75d9adf8a64ae40cf6);
+        
+    
+            var marker_2a626c86c2321c8ca3a8370b1d543c05 = L.marker(
+                [46.9017116, 45.249161],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_d6e21ca72525ac1a604078394b23c7fe = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f42e.png"});
+        marker_2a626c86c2321c8ca3a8370b1d543c05.setIcon(custom_icon_d6e21ca72525ac1a604078394b23c7fe);
+        
+    
+            var marker_c9d82543154a026bef2ed4654ad66851 = L.marker(
+                [47.1878186, 47.608851],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_2b149e11e4c7b9b93d680133854e3fe4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
+        marker_c9d82543154a026bef2ed4654ad66851.setIcon(custom_icon_2b149e11e4c7b9b93d680133854e3fe4);
+        
+    
+            var marker_0f17de4ab27aa5fbe43851b95fe4a588 = L.marker(
+                [43.0883099, 47.14988017944228],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_393aa42c93e78c30d90a301e175be1f3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
+        marker_0f17de4ab27aa5fbe43851b95fe4a588.setIcon(custom_icon_393aa42c93e78c30d90a301e175be1f3);
+        
+    
+            var marker_b888369e475286602519f76aceb7bfff = L.marker(
+                [43.7368326, 41.7267991],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_1f4989fd59a729bf7e31f4ef72edbdd1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
+        marker_b888369e475286602519f76aceb7bfff.setIcon(custom_icon_1f4989fd59a729bf7e31f4ef72edbdd1);
+        
+    
+            var marker_b8bb9f2b86550b03d15f0d5745093656 = L.marker(
+                [54.4419829, 44.4661144],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_4e1db7ea02c9f693dc325e604952d311 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f984.png"});
+        marker_b8bb9f2b86550b03d15f0d5745093656.setIcon(custom_icon_4e1db7ea02c9f693dc325e604952d311);
+        
+    
+            var marker_d5dc57f26cd7d06c1d06999140680d10 = L.marker(
+                [50.7114101, 86.8572186],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_227605c34e4fa55dc362bd46646df72d = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
+        marker_d5dc57f26cd7d06c1d06999140680d10.setIcon(custom_icon_227605c34e4fa55dc362bd46646df72d);
+        
+    
+            var marker_12980d59cbb17a3964f6c6ceee2b2fe3 = L.marker(
+                [51.4017149, 93.8582593],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_88d069f7e7f543645093ac9ea071c88e = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
+        marker_12980d59cbb17a3964f6c6ceee2b2fe3.setIcon(custom_icon_88d069f7e7f543645093ac9ea071c88e);
+        
+    
+            var marker_8fe8aa27a82a5bba5fbe4479391d5c00 = L.marker(
+                [53.4399379, 90.0664303],
+                {}
+            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+        
+    
+        var custom_icon_f8fa5a12bc71acee90c6c57cfd687c3e = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f984.png"});
+        marker_8fe8aa27a82a5bba5fbe4479391d5c00.setIcon(custom_icon_f8fa5a12bc71acee90c6c57cfd687c3e);
+        
+</script>
