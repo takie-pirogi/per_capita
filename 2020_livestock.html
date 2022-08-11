@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_bf8313ecd0392bd77e01bdb2a73f80d0 {
+                #map_570c699a35b49bfc0eaf5a67496d4d9d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_bf8313ecd0392bd77e01bdb2a73f80d0" ></div>
+            <div class="folium-map" id="map_570c699a35b49bfc0eaf5a67496d4d9d" ></div>
         
 </body>
 <script>    
     
-            var map_bf8313ecd0392bd77e01bdb2a73f80d0 = L.map(
-                "map_bf8313ecd0392bd77e01bdb2a73f80d0",
+            var map_570c699a35b49bfc0eaf5a67496d4d9d = L.map(
+                "map_570c699a35b49bfc0eaf5a67496d4d9d",
                 {
                     center: [57.153534, 65.542274],
                     crs: L.CRS.EPSG3857,
@@ -55,139 +55,412 @@
 
         
     
-            var tile_layer_f8e415ec3002aad6656040c635466b49 = L.tileLayer(
+            var tile_layer_451c2e8fc8eaf35b615bdfcc39f94c1c = L.tileLayer(
                 "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-            var marker_a0d286b2cd9e6999f3fd7122a7dd0dab = L.marker(
+            var marker_a1f41757abbf2bf868079136c8f1246d = L.marker(
                 [50.7080119, 37.5837615],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_44cba0b81749b6950a0d75c3deec3ff8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
-        marker_a0d286b2cd9e6999f3fd7122a7dd0dab.setIcon(custom_icon_44cba0b81749b6950a0d75c3deec3ff8);
+        var custom_icon_b2bbb182ea8788fddeb65c22ddecf2a6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
+        marker_a1f41757abbf2bf868079136c8f1246d.setIcon(custom_icon_b2bbb182ea8788fddeb65c22ddecf2a6);
         
     
-            var marker_a1cc1db41fa259f5c08fbba9acdf2a1c = L.marker(
+        var popup_892d1c0f07718c7f9212f92bc6cf0bf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36e60f186efb5e6d211c80e6a7f36ed8 = $(`<div id="html_36e60f186efb5e6d211c80e6a7f36ed8" style="width: 100.0%; height: 100.0%;"><b>Белгородская область</b> 2.95 голов свиней на человека</div>`)[0];
+            popup_892d1c0f07718c7f9212f92bc6cf0bf9.setContent(html_36e60f186efb5e6d211c80e6a7f36ed8);
+        
+
+        marker_a1f41757abbf2bf868079136c8f1246d.bindPopup(popup_892d1c0f07718c7f9212f92bc6cf0bf9)
+        ;
+
+        
+    
+    
+            marker_a1f41757abbf2bf868079136c8f1246d.bindTooltip(
+                `<div>
+                     Белгородская область
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d0b2bb052cf5fc5bfeeefc5c8c229bb = L.marker(
                 [51.6568453, 36.4852695],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_272dd990282fcc5f777ae116bb9dbf52 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
-        marker_a1cc1db41fa259f5c08fbba9acdf2a1c.setIcon(custom_icon_272dd990282fcc5f777ae116bb9dbf52);
+        var custom_icon_952f51cfbfa5e3cb28ed305d80ea50f5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
+        marker_3d0b2bb052cf5fc5bfeeefc5c8c229bb.setIcon(custom_icon_952f51cfbfa5e3cb28ed305d80ea50f5);
         
     
-            var marker_a904a9155e65ce139a8041994cb74eaf = L.marker(
+        var popup_47e2bcaa757516053caf670f08c7240e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_596368d11947f24b87d3336bfc347110 = $(`<div id="html_596368d11947f24b87d3336bfc347110" style="width: 100.0%; height: 100.0%;"><b>Курская область</b> 2.06 голов свиней на человека</div>`)[0];
+            popup_47e2bcaa757516053caf670f08c7240e.setContent(html_596368d11947f24b87d3336bfc347110);
+        
+
+        marker_3d0b2bb052cf5fc5bfeeefc5c8c229bb.bindPopup(popup_47e2bcaa757516053caf670f08c7240e)
+        ;
+
+        
+    
+    
+            marker_3d0b2bb052cf5fc5bfeeefc5c8c229bb.bindTooltip(
+                `<div>
+                     Курская область
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_844ea32285858fdc82e205cb8e8618bb = L.marker(
                 [52.8392765, 36.4251709],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_4c9335cd5bd4aec14df1f9bd9bf65513 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f984.png"});
-        marker_a904a9155e65ce139a8041994cb74eaf.setIcon(custom_icon_4c9335cd5bd4aec14df1f9bd9bf65513);
+        var custom_icon_03f736b9f25deb3c19205fe4ccdc6256 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f984.png"});
+        marker_844ea32285858fdc82e205cb8e8618bb.setIcon(custom_icon_03f736b9f25deb3c19205fe4ccdc6256);
         
     
-            var marker_f53f0c5baddb11f32eb185281aa7b21b = L.marker(
+        var popup_769a77221cbef698fabb687fae8b3134 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bc2d8aa4096820cbfbceaba4f5ab664 = $(`<div id="html_1bc2d8aa4096820cbfbceaba4f5ab664" style="width: 100.0%; height: 100.0%;"><b>Орловская область</b> 1.16 голов с/х животных на человека</div>`)[0];
+            popup_769a77221cbef698fabb687fae8b3134.setContent(html_1bc2d8aa4096820cbfbceaba4f5ab664);
+        
+
+        marker_844ea32285858fdc82e205cb8e8618bb.bindPopup(popup_769a77221cbef698fabb687fae8b3134)
+        ;
+
+        
+    
+    
+            marker_844ea32285858fdc82e205cb8e8618bb.bindTooltip(
+                `<div>
+                     Орловская область
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66e634eca288b3499fb87f8b347e05f3 = L.marker(
                 [52.9019574, 41.3578918],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_ce5857f771c1469ed1f986d44c69e51d = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
-        marker_f53f0c5baddb11f32eb185281aa7b21b.setIcon(custom_icon_ce5857f771c1469ed1f986d44c69e51d);
+        var custom_icon_05e6deb39a34c8757b1d8dfc22d7bf0a = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
+        marker_66e634eca288b3499fb87f8b347e05f3.setIcon(custom_icon_05e6deb39a34c8757b1d8dfc22d7bf0a);
         
     
-            var marker_c95e768702ad4f6174216873c317decd = L.marker(
+        var popup_cbaa8a7f06aa9279ceb6d880e3f27bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b0aa85698bc15e266beca4f1d7f77c4 = $(`<div id="html_1b0aa85698bc15e266beca4f1d7f77c4" style="width: 100.0%; height: 100.0%;"><b>Тамбовская область</b> 1.17 голов свиней на человека</div>`)[0];
+            popup_cbaa8a7f06aa9279ceb6d880e3f27bf2.setContent(html_1b0aa85698bc15e266beca4f1d7f77c4);
+        
+
+        marker_66e634eca288b3499fb87f8b347e05f3.bindPopup(popup_cbaa8a7f06aa9279ceb6d880e3f27bf2)
+        ;
+
+        
+    
+    
+            marker_66e634eca288b3499fb87f8b347e05f3.bindTooltip(
+                `<div>
+                     Тамбовская область
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4d3a2f7fb7ec282d080d5cec7cd401b = L.marker(
                 [57.5358729, 28.8586826],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_6ba86a5181113e75d9adf8a64ae40cf6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
-        marker_c95e768702ad4f6174216873c317decd.setIcon(custom_icon_6ba86a5181113e75d9adf8a64ae40cf6);
+        var custom_icon_9ecd442b4598062ab0b363e1ae8abb9f = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f437.png"});
+        marker_d4d3a2f7fb7ec282d080d5cec7cd401b.setIcon(custom_icon_9ecd442b4598062ab0b363e1ae8abb9f);
         
     
-            var marker_2a626c86c2321c8ca3a8370b1d543c05 = L.marker(
+        var popup_f06a5d4523edbc1bcad51e658ecf14b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1214856d978d8baec704f2820af4408 = $(`<div id="html_d1214856d978d8baec704f2820af4408" style="width: 100.0%; height: 100.0%;"><b>Псковская область</b> 2.33 голов свиней на человека</div>`)[0];
+            popup_f06a5d4523edbc1bcad51e658ecf14b9.setContent(html_d1214856d978d8baec704f2820af4408);
+        
+
+        marker_d4d3a2f7fb7ec282d080d5cec7cd401b.bindPopup(popup_f06a5d4523edbc1bcad51e658ecf14b9)
+        ;
+
+        
+    
+    
+            marker_d4d3a2f7fb7ec282d080d5cec7cd401b.bindTooltip(
+                `<div>
+                     Псковская область
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ceb306656501e6a7ec44b8c46670b93 = L.marker(
                 [46.9017116, 45.249161],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_d6e21ca72525ac1a604078394b23c7fe = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f42e.png"});
-        marker_2a626c86c2321c8ca3a8370b1d543c05.setIcon(custom_icon_d6e21ca72525ac1a604078394b23c7fe);
+        var custom_icon_cc680c89373714976f19a3942eaaebac = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f42e.png"});
+        marker_8ceb306656501e6a7ec44b8c46670b93.setIcon(custom_icon_cc680c89373714976f19a3942eaaebac);
         
     
-            var marker_c9d82543154a026bef2ed4654ad66851 = L.marker(
+        var popup_9dfafa9fc923dba426fa5212fef9b51c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccf4a92f5e1758ff9a3bde2cd04902ac = $(`<div id="html_ccf4a92f5e1758ff9a3bde2cd04902ac" style="width: 100.0%; height: 100.0%;"><b>Республика Калмыкия</b> 1.33 голов КРС на человека</div>`)[0];
+            popup_9dfafa9fc923dba426fa5212fef9b51c.setContent(html_ccf4a92f5e1758ff9a3bde2cd04902ac);
+        
+
+        marker_8ceb306656501e6a7ec44b8c46670b93.bindPopup(popup_9dfafa9fc923dba426fa5212fef9b51c)
+        ;
+
+        
+    
+    
+            marker_8ceb306656501e6a7ec44b8c46670b93.bindTooltip(
+                `<div>
+                     Республика Калмыкия
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d908f90831137d5ab90e2329b642051 = L.marker(
                 [47.1878186, 47.608851],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_2b149e11e4c7b9b93d680133854e3fe4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
-        marker_c9d82543154a026bef2ed4654ad66851.setIcon(custom_icon_2b149e11e4c7b9b93d680133854e3fe4);
+        var custom_icon_3ace54b677a5969668072b3fad2c060d = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
+        marker_4d908f90831137d5ab90e2329b642051.setIcon(custom_icon_3ace54b677a5969668072b3fad2c060d);
         
     
-            var marker_0f17de4ab27aa5fbe43851b95fe4a588 = L.marker(
+        var popup_8f8988a88bdde1645aa78c5859cb0b37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6f2fb5bb76cfd7d406b574025986b83 = $(`<div id="html_b6f2fb5bb76cfd7d406b574025986b83" style="width: 100.0%; height: 100.0%;"><b>Астраханская область</b> 1.28 голов овец и коз на человека</div>`)[0];
+            popup_8f8988a88bdde1645aa78c5859cb0b37.setContent(html_b6f2fb5bb76cfd7d406b574025986b83);
+        
+
+        marker_4d908f90831137d5ab90e2329b642051.bindPopup(popup_8f8988a88bdde1645aa78c5859cb0b37)
+        ;
+
+        
+    
+    
+            marker_4d908f90831137d5ab90e2329b642051.bindTooltip(
+                `<div>
+                     Астраханская область
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c88a994980a3233c6a66baae2f12210 = L.marker(
                 [43.0883099, 47.14988017944228],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_393aa42c93e78c30d90a301e175be1f3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
-        marker_0f17de4ab27aa5fbe43851b95fe4a588.setIcon(custom_icon_393aa42c93e78c30d90a301e175be1f3);
+        var custom_icon_461c4d4171ca215ab5a915859e350929 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
+        marker_6c88a994980a3233c6a66baae2f12210.setIcon(custom_icon_461c4d4171ca215ab5a915859e350929);
         
     
-            var marker_b888369e475286602519f76aceb7bfff = L.marker(
+        var popup_92ab391b980ed429b29b8e9beb82748e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_792715c2ce2d361e536fbe14f64ce42c = $(`<div id="html_792715c2ce2d361e536fbe14f64ce42c" style="width: 100.0%; height: 100.0%;"><b>Республика Дагестан</b> 1.45 голов овец и коз на человека</div>`)[0];
+            popup_92ab391b980ed429b29b8e9beb82748e.setContent(html_792715c2ce2d361e536fbe14f64ce42c);
+        
+
+        marker_6c88a994980a3233c6a66baae2f12210.bindPopup(popup_92ab391b980ed429b29b8e9beb82748e)
+        ;
+
+        
+    
+    
+            marker_6c88a994980a3233c6a66baae2f12210.bindTooltip(
+                `<div>
+                     Республика Дагестан
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e1475999c4a0493725a96977ce64727 = L.marker(
                 [43.7368326, 41.7267991],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_1f4989fd59a729bf7e31f4ef72edbdd1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
-        marker_b888369e475286602519f76aceb7bfff.setIcon(custom_icon_1f4989fd59a729bf7e31f4ef72edbdd1);
+        var custom_icon_dc40803bdeabe859c133c8b17dfd0f63 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
+        marker_9e1475999c4a0493725a96977ce64727.setIcon(custom_icon_dc40803bdeabe859c133c8b17dfd0f63);
         
     
-            var marker_b8bb9f2b86550b03d15f0d5745093656 = L.marker(
+        var popup_c2838b503d86a50e07b06399cd36394a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30dfe9e5ca44d67e62ea77913f3ffbcd = $(`<div id="html_30dfe9e5ca44d67e62ea77913f3ffbcd" style="width: 100.0%; height: 100.0%;"><b>КарачаевоЧеркесская Республика</b> 2.38 голов овец и коз на человека</div>`)[0];
+            popup_c2838b503d86a50e07b06399cd36394a.setContent(html_30dfe9e5ca44d67e62ea77913f3ffbcd);
+        
+
+        marker_9e1475999c4a0493725a96977ce64727.bindPopup(popup_c2838b503d86a50e07b06399cd36394a)
+        ;
+
+        
+    
+    
+            marker_9e1475999c4a0493725a96977ce64727.bindTooltip(
+                `<div>
+                     КарачаевоЧеркесская Республика
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_109259d726ab064f6d9bedd51fbfa8c0 = L.marker(
                 [54.4419829, 44.4661144],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_4e1db7ea02c9f693dc325e604952d311 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f984.png"});
-        marker_b8bb9f2b86550b03d15f0d5745093656.setIcon(custom_icon_4e1db7ea02c9f693dc325e604952d311);
+        var custom_icon_265888f9425f89dfeec6e6a42dcad2df = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f984.png"});
+        marker_109259d726ab064f6d9bedd51fbfa8c0.setIcon(custom_icon_265888f9425f89dfeec6e6a42dcad2df);
         
     
-            var marker_d5dc57f26cd7d06c1d06999140680d10 = L.marker(
+        var popup_bd09584d90b4f268d907359bef9bef0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5271487c65f8329743842c2fccb4b36c = $(`<div id="html_5271487c65f8329743842c2fccb4b36c" style="width: 100.0%; height: 100.0%;"><b>Республика Мордовия</b> 1.09 голов с/х животных на человека</div>`)[0];
+            popup_bd09584d90b4f268d907359bef9bef0c.setContent(html_5271487c65f8329743842c2fccb4b36c);
+        
+
+        marker_109259d726ab064f6d9bedd51fbfa8c0.bindPopup(popup_bd09584d90b4f268d907359bef9bef0c)
+        ;
+
+        
+    
+    
+            marker_109259d726ab064f6d9bedd51fbfa8c0.bindTooltip(
+                `<div>
+                     Республика Мордовия
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0fe18f938022256c868a0ef60fb91bc = L.marker(
                 [50.7114101, 86.8572186],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_227605c34e4fa55dc362bd46646df72d = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
-        marker_d5dc57f26cd7d06c1d06999140680d10.setIcon(custom_icon_227605c34e4fa55dc362bd46646df72d);
+        var custom_icon_f153500eab7b2f0ebf32cb4a7c892a6b = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
+        marker_e0fe18f938022256c868a0ef60fb91bc.setIcon(custom_icon_f153500eab7b2f0ebf32cb4a7c892a6b);
         
     
-            var marker_12980d59cbb17a3964f6c6ceee2b2fe3 = L.marker(
+        var popup_ffe6d474aaf52f7dc2e29eeb93af8d05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fe142ca13d857fe28832bfe16b9c136 = $(`<div id="html_7fe142ca13d857fe28832bfe16b9c136" style="width: 100.0%; height: 100.0%;"><b>Республика Алтай</b> 1.72 голов овец и коз на человека</div>`)[0];
+            popup_ffe6d474aaf52f7dc2e29eeb93af8d05.setContent(html_7fe142ca13d857fe28832bfe16b9c136);
+        
+
+        marker_e0fe18f938022256c868a0ef60fb91bc.bindPopup(popup_ffe6d474aaf52f7dc2e29eeb93af8d05)
+        ;
+
+        
+    
+    
+            marker_e0fe18f938022256c868a0ef60fb91bc.bindTooltip(
+                `<div>
+                     Республика Алтай
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c51b7005aeff72f67d7e554b3321c79 = L.marker(
                 [51.4017149, 93.8582593],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_88d069f7e7f543645093ac9ea071c88e = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
-        marker_12980d59cbb17a3964f6c6ceee2b2fe3.setIcon(custom_icon_88d069f7e7f543645093ac9ea071c88e);
+        var custom_icon_454ce0b94d58297831bc97497fe52f34 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f40f.png"});
+        marker_3c51b7005aeff72f67d7e554b3321c79.setIcon(custom_icon_454ce0b94d58297831bc97497fe52f34);
         
     
-            var marker_8fe8aa27a82a5bba5fbe4479391d5c00 = L.marker(
+        var popup_1d4e7281da23b82ffaab2d3601a0fee9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f81e78100a8b2995fdfa789d0e161db4 = $(`<div id="html_f81e78100a8b2995fdfa789d0e161db4" style="width: 100.0%; height: 100.0%;"><b>Республика Тыва</b> 3.7 голов овец и коз на человека</div>`)[0];
+            popup_1d4e7281da23b82ffaab2d3601a0fee9.setContent(html_f81e78100a8b2995fdfa789d0e161db4);
+        
+
+        marker_3c51b7005aeff72f67d7e554b3321c79.bindPopup(popup_1d4e7281da23b82ffaab2d3601a0fee9)
+        ;
+
+        
+    
+    
+            marker_3c51b7005aeff72f67d7e554b3321c79.bindTooltip(
+                `<div>
+                     Республика Тыва
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2fa632298d72a976025095825843cc0 = L.marker(
                 [53.4399379, 90.0664303],
                 {}
-            ).addTo(map_bf8313ecd0392bd77e01bdb2a73f80d0);
+            ).addTo(map_570c699a35b49bfc0eaf5a67496d4d9d);
         
     
-        var custom_icon_f8fa5a12bc71acee90c6c57cfd687c3e = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f984.png"});
-        marker_8fe8aa27a82a5bba5fbe4479391d5c00.setIcon(custom_icon_f8fa5a12bc71acee90c6c57cfd687c3e);
+        var custom_icon_80ddd72f1b98822ae5d35140b39e5349 = L.icon({"iconSize": [40, 40], "iconUrl": "https://emojio.ru/images/apple-b/1f984.png"});
+        marker_f2fa632298d72a976025095825843cc0.setIcon(custom_icon_80ddd72f1b98822ae5d35140b39e5349);
+        
+    
+        var popup_694f3f544353a23916a8a99d330ccba5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_667abfbd6fa2f1f7987324b71e81d7cc = $(`<div id="html_667abfbd6fa2f1f7987324b71e81d7cc" style="width: 100.0%; height: 100.0%;"><b>Республика Хакасия</b> 1.0 голов с/х животных на человека</div>`)[0];
+            popup_694f3f544353a23916a8a99d330ccba5.setContent(html_667abfbd6fa2f1f7987324b71e81d7cc);
+        
+
+        marker_f2fa632298d72a976025095825843cc0.bindPopup(popup_694f3f544353a23916a8a99d330ccba5)
+        ;
+
+        
+    
+    
+            marker_f2fa632298d72a976025095825843cc0.bindTooltip(
+                `<div>
+                     Республика Хакасия
+                 </div>`,
+                {"sticky": true}
+            );
         
 </script>
